@@ -292,7 +292,7 @@ const galleryData = {
     title: "Tonyt's Logo Enhancement & Product Mockup",
     images: [
       {
-        src: "assets/img/mockup/tonyts.png",
+        src: "assets/img/mockup/tonyts.jpg",
         title: "Complete Product Line Mockup",
         description:
           "Professional product mockup showcasing the enhanced Tonyt's logo across three different product variants with distinct color schemes and branding consistency.",
