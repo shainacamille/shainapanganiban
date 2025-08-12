@@ -1,10 +1,307 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>Test Page</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shaina Panganiban</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
 </head>
 <body>
-    <h1>Hello World!</h1>
-    <p>This is a test page.</p>
+    <!-- Loading Screen -->
+    <div id="loading-screen" class="loading-screen">
+        <div class="loading-content">
+            <div class="loading-logo">
+                <img src="assets/img/logo/logo.png" alt="Logo" class="loading-logo-image">
+            </div>
+            <div class="loading-text">
+                <h2>Shaina Panganiban</h2>
+                <p>Graphic Designer</p>
+            </div>
+            <div class="loading-bar">
+                <div class="loading-progress"></div>
+            </div>
+            <div class="loading-percentage">0%</div>
+        </div>
+        <div class="loading-particles">
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+        </div>
+    </div>
+    <!-- Main Content -->
+    <div id="main-content" class="main-content">
+        <!-- Navigation -->
+        <nav class="navbar">
+            <div class="nav-container">
+                <div class="nav-logo">
+                    <a href="#home">
+                        <img src="assets/img/logo/logo.png" alt="Logo" class="logo-image">
+                    </a>
+                </div>
+                <div class="nav-menu" id="nav-menu">
+                    <a href="#about" class="nav-link">About</a>
+                    <a href="#skills" class="nav-link">Skills</a>
+                    <a href="#works" class="nav-link">Works</a>
+                    <a href="#contact" class="nav-link">Contact</a>
+                </div>
+                <div class="hamburger" id="hamburger">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+            </div>
+        </nav>
+
+        <!-- Hero Section -->
+        <section id="home" class="hero">
+            <div class="hero-content">
+                <h1 class="hero-title">
+                    <span class="title-line">Creative</span>
+                    <span class="title-line highlight">Graphic Designer</span>
+                </h1>
+                <p class="hero-subtitle">Bringing ideas to life through innovative design</p>
+                <div class="hero-cta">
+                    <a href="#about" class="btn btn-primary">Explore My Work</a>
+                </div>
+            </div>
+            <div class="hero-visual">
+                <div class="floating-shapes">
+                    <div class="shape shape-1"></div>
+                    <div class="shape shape-2"></div>
+                    <div class="shape shape-3"></div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="section about">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">About Me</h2>
+                    <div class="section-line"></div>
+                </div>
+                <div class="about-content">
+                    <div class="about-text">
+                        <p class="about-description">
+                            I am a graduating BSIT student from Caraga State University with a strong passion for technology and innovation. 
+                            Known for my creativity, I also bring adaptability, problem-solving skills, and a collaborative mindset which help me 
+                            contribute effectively in dynamic work environments. I have hands-on experience from my work at FABLAB CARAGA, where I 
+                            performed graphic design tasks including logo enhancement and product labeling, managed client data, and provided academic support.
+                        </p>
+                        <div class="about-stats">
+                            <div class="stat">
+                                <span class="stat-number">6+</span>
+                                <span class="stat-label">Months Experience</span>
+                            </div>
+                            <div class="stat">
+                                <span class="stat-number">2</span>
+                                <span class="stat-label">Positions Held</span>
+                            </div>
+                            <div class="stat">
+                                <span class="stat-number">BSIT</span>
+                                <span class="stat-label">Graduate</span>
+                            </div>
+                        </div>
+                        <button class="btn btn-secondary cv-btn" onclick="downloadCV()">
+                            <i class="fas fa-download"></i>
+                            Download My CV
+                        </button>
+                    </div>
+                     <div class="about-image">
+                        <img src="assets/img/profile/me.jpg" alt="Shaina Panganiban - Graphic Designer" class="profile-image">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Skills Section -->
+        <section id="skills" class="section skills">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">My Skills</h2>
+                    <div class="section-line"></div>
+                </div>
+                <div class="skills-grid">
+                    <div class="skill-card">
+                        <div class="skill-icon">
+                            <i class="fas fa-palette"></i>
+                        </div>
+                        <h3 class="skill-title">Graphic Design</h3>
+                        <p class="skill-description">
+                            Experienced in logo enhancement, product labeling, and visual design through hands-on work at FABLAB CARAGA. 
+                            Skilled in creating professional graphics that effectively communicate brand messages and enhance visual identity.
+                        </p>
+                    </div>
+                    <div class="skill-card">
+                        <div class="skill-icon">
+                            <i class="fas fa-cube"></i>
+                        </div>
+                        <h3 class="skill-title">Product Mockup</h3>
+                        <p class="skill-description">
+                            Developing realistic product presentations and mockups that showcase your designs in 
+                            professional and appealing contexts.
+                        </p>
+                    </div>
+                    <div class="skill-card">
+                        <div class="skill-icon">
+                            <i class="fas fa-image"></i>
+                        </div>
+                        <h3 class="skill-title">Photo Editing</h3>
+                        <p class="skill-description">
+                            Proficient in digital image manipulation, color correction, and photo enhancement. 
+                            Combines technical skills with creative vision to produce high-quality visual content for various applications.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Works Section -->
+        <section id="works" class="section works">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">My Works</h2>
+                    <div class="section-line"></div>
+                </div>
+                <div class="works-filter">
+                    <button class="filter-btn active" data-filter="all">All</button>
+                    <button class="filter-btn" data-filter="graphic">Graphic Design</button>
+                    <button class="filter-btn" data-filter="mockup">Product Mockup</button>
+                    <button class="filter-btn" data-filter="photo">Photo Editing</button>
+                </div>
+                <div class="works-grid">
+                    <div class="work-item" data-category="graphic" onclick="openGallery('fablab-cards')">
+                        <div class="work-image">
+                            <img src="assets/img/graphic design/calling cards/fablab.png" alt="FABLAB CARAGA Business Card Project" class="work-img">
+                            <div class="image-count">
+                                <i class="fas fa-images"></i>
+                                <span>3 Images</span>
+                            </div>
+                        </div>
+                        <div class="work-overlay">
+                            <h4 class="work-title">FABLAB CARAGA Business Card</h4>
+                            <p class="work-category">Graphic Design</p>
+                            <p class="work-description">Complete business card design project featuring professional branding, clean typography, and modern geometric elements.</p>
+                        </div>
+                    </div>
+                    <div class="work-item" data-category="mockup" onclick="openGallery('tonyts-logo')">
+                      <div class="work-image">
+                        <img src="assets/img/mockup/tonyts.jpg" alt="tonyts's Logo Enhancement & Product Mockup" class="work-img">
+                        <div class="image-count">
+                          <i class="fas fa-images"></i>
+                          <span>4 Images</span>
+                        </div>
+                      </div>
+                      <div class="work-overlay">
+                        <h4 class="work-title">tonyts's Logo Enhancement</h4>
+                        <p class="work-category">Product Mockup</p>
+                        <p class="work-description">Logo enhancement and product packaging design for tonyts's squid snacks, featuring professional mockups and brand consistency across multiple product variants.</p>
+                      </div>
+                    </div>
+                
+                    <div class="work-item" data-category="photo" onclick="openGallery('euphoria-series')">
+    <div class="work-image">
+        <img src="assets/img/photography/rai-18th/cover.jpg" alt="Rai's 18th Euphoria inspired Photoshoot" class="work-img">
+        <div class="image-count">
+            <i class="fas fa-images"></i>
+            <span>4 Images</span>
+        </div>
+    </div>
+    <div class="work-overlay">
+        <h4 class="work-title">Rai's 18th Euphoria inspired Photoshoot</h4>
+        <p class="work-category">Photo Editing</p>
+        <p class="work-description">Creative portrait photography series featuring advanced lighting techniques, color grading, and artistic post-processing. Self-photographed and edited.</p>
+    </div>
+</div>
+<div class="work-item" data-category="photo" onclick="openGallery('mics-18th')">
+    <div class="work-image">
+        <img src="assets/img/photography/mics-18th/cover.jpg" alt="Micah's 18th Birthday Photography Session" class="work-img">
+        <div class="image-count">
+            <i class="fas fa-images"></i>
+            <span>4 Images</span>
+        </div>
+    </div>
+    <div class="work-overlay">
+        <h4 class="work-title">Micah's 18th Birthday Session</h4>
+        <p class="work-category">Photo Editing</p>
+        <p class="work-description">Complete birthday photoshoot featuring portrait photography, creative concepts, and editorial-style imagery. Self-photographed and edited with diverse styling and moods.</p>
+    </div>
+</div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="section contact">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">Let's Connect</h2>
+                    <div class="section-line"></div>
+                </div>
+                <div class="contact-content">
+                    <div class="contact-text">
+                        <h3>Ready to work together?</h3>
+                        <p>I'm always interested in new opportunities and exciting projects. Let's discuss how we can bring your vision to life.</p>
+                    </div>
+                    <div class="social-links">
+                        <a href="https://www.linkedin.com/in/shainacamillepanganiban" target="_blank" class="social-link linkedin">
+                            <i class="fab fa-linkedin-in"></i>
+                            <span>LinkedIn</span>
+                        </a>
+                        <a href="https://www.behance.net/shainapangani" target="_blank" class="social-link behance">
+                            <i class="fab fa-behance"></i>
+                            <span>Behance</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <footer class="footer">
+            <div class="container">
+                <p>&copy; 2025 Shaina Panganiban. All rights reserved.</p>
+            </div>
+        </footer>
+    </div>
+
+   <!-- Image Gallery Modal -->
+    <div id="gallery-modal" class="gallery-modal">
+        <div class="gallery-container">
+            <div class="gallery-header">
+                <h3 id="gallery-title">Project Gallery</h3>
+                <button class="gallery-close" onclick="closeGallery()">
+                    <i class="fas fa-times"></i>
+                </button>
+            </div>
+            <div class="gallery-content">
+                <div class="gallery-left">
+                    <div class="gallery-main">
+                        <img id="gallery-main-image" src="/placeholder.svg" alt="" class="gallery-image">
+                        <div class="gallery-nav">
+                            <button class="gallery-prev" onclick="previousImage()">
+                                <i class="fas fa-chevron-left"></i>
+                            </button>
+                            <button class="gallery-next" onclick="nextImage()">
+                                <i class="fas fa-chevron-right"></i>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="gallery-thumbnails">
+                        <div id="gallery-thumbs" class="thumbnails-container">
+                            <!-- Thumbnails will be populated by JavaScript -->
+                        </div>
+                    </div>
+                </div>
+                <div class="gallery-info">
+                    <h4 id="image-title">Image Title</h4>
+                    <p id="image-description">Image description</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
 </body>
 </html>
