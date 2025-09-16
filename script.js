@@ -375,6 +375,23 @@ const galleryData = {
       },
     ],
   },
+  "enzos": {
+    title: "Enzo's Bilao Poster",
+    images: [
+      {
+        src: "assets/img/graphic design/poster/easel _sign_mock_up.png",
+        title: "Enzo's Bilao Poster Mockup",
+        description:
+          "Vibrant poster design showcasing Enzo's Bilao offerings with appetizing food photography and clear typography. Features a professional layout suitable for print and digital marketing materials.",
+      },
+      {
+        src: "assets/img/graphic design/poster/enzo-03.jpg",
+        title: "Enzo's Bilao Poster Design",
+        description:
+          "Colorful and engaging poster design highlighting various bilao options with bold typography and appealing food imagery. Designed to attract customers with a festive and appetizing visual style.",
+      },
+    ],
+  },
 }
 
 let currentGallery = null
@@ -528,3 +545,4 @@ document.addEventListener("DOMContentLoaded", () => {
     }
   })
 })
+
