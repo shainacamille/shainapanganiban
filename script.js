@@ -135,7 +135,7 @@ filterButtons.forEach((button) => {
 function downloadCV() {
   // Create a temporary link element
   const link = document.createElement("a")
-  link.href = "assets/cv/panganiban resume.pdf" // Update this path when you add your CV file
+  link.href = "assets/cv/panganiban resume.pdf" // cv file pdf
   link.download = "Shaina_Camille_Panganiban_CV.pdf"
 
   document.body.appendChild(link)
