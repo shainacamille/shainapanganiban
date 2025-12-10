@@ -1214,7 +1214,7 @@ body::before {
 }
 
 .social-link.instagram {
-  background: #0077b5;
+  background: linear-gradient(45deg, #fd1d1d, #833ab4, #fcb045);
   color: white;
 }
 
