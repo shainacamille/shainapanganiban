@@ -410,6 +410,18 @@ const galleryData = {
       },
     ],
   },
+
+  "ecoquest-game": {
+    title: "EcoQuest Mobile Game - Logo & Start Screen",
+    images: [
+      {
+        src: "assets/img/mockup/ecoquest_logo.png",
+        title: "EcoQuest Mobile Game Interface",
+        description:
+          "Professional mobile game UI mockup featuring the EcoQuest logo prominently displayed on a realistic phone device. The design combines nature-themed graphics with vibrant green branding, environmental elements including buildings and vegetation, and a polished presentation on a desk environment.",
+      },
+    ],
+  },
 }
 let currentGallery = null
 let currentImageIndex = 0
