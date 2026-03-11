@@ -422,6 +422,23 @@ const galleryData = {
       },
     ],
   },
+  "handum-poster": {
+    title: "Handum Theatrical Poster Design",
+    images: [
+      {
+        src: "assets/img/mockup/handum poster mockup.png",
+        title: "Handum Poster Mockup Presentation",
+        description:
+          "Professional 3D mockup displaying the theatrical poster on a textured concrete wall with natural environmental setting. Showcases the final design in a realistic, professional presentation context for display and promotional purposes.",
+      },
+      {
+        src: "assets/img/mockup/handum_poster.jpg",
+        title: "Handum Poster Design",
+        description:
+          "Complete theatrical poster for the official entry to Sweet and Short Play. Features elegant gold script typography for 'Handum', cast member photographs in decorative frames, warm beige color palette, and professional credits with director Rechille Patosa and cast members.",
+      },
+    ],
+  },
 }
 let currentGallery = null
 let currentImageIndex = 0
