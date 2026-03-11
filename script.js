@@ -392,7 +392,7 @@ const galleryData = {
       },
     ],
   },
-}
+
 "ched-plaque": {
     title: "CHED Plaque Design - 2D & 3D",
     images: [
