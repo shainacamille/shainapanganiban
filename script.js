@@ -393,7 +393,24 @@ const galleryData = {
     ],
   },
 }
-
+"ched-plaque": {
+    title: "CHED Plaque Design - 2D & 3D",
+    images: [
+      {
+        src: "assets/img/mockup/plaque design.jpg",
+        title: "CHED Plaque Mockup Design",
+        description:
+          "Professional recognition plaque design for CHED featuring elegant layout with recipient name, citation text, and institutional branding. Showcases sophisticated color blocking with green, orange, yellow, and cream color palette on gray background with wooden base.",
+      },
+      {
+        src: "assets/img/mockup/image_2026-03-11_110937637.png",
+        title: "3D Visualization Concept",
+        description:
+          "3D modeling visualization of the plaque design demonstrating depth, perspective, and layered geometric elements. Created in Blender to present the final design concept with realistic proportions, materials, and spatial composition for client presentation.",
+      },
+    ],
+  },
+}
 let currentGallery = null
 let currentImageIndex = 0
 
